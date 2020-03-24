@@ -2,7 +2,7 @@
   "name": "codepipeline-aws-docs-guide-error",
   "version": "0.1.0",
   "bin": {
-    "codepipeline-aws-docs-guide-error": "bin/codepipeline-aws-docs-guide-error.js"
+    "codepipeline-aws-docs-guide-error": "bin/pipeline.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,6 +21,13 @@
     "typescript": "~3.7.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-codebuild": "1.30.0",
+    "@aws-cdk/aws-codecommit": "1.30.0",
+    "@aws-cdk/aws-codedeploy": "1.30.0",
+    "@aws-cdk/aws-codepipeline": "1.30.0",
+    "@aws-cdk/aws-codepipeline-actions": "1.30.0",
+    "@aws-cdk/aws-lambda": "1.30.0",
+    "@aws-cdk/aws-s3": "1.30.0",
     "@aws-cdk/core": "1.30.0",
     "source-map-support": "^0.5.16"
   }
